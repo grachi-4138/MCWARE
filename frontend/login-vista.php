@@ -16,7 +16,7 @@
 <div class="container-form">
         <div class="header">
             <div class="logo-title">
-                <img src="imagenes/fondo.png" alt="">
+                <img src="imagenes/GRRRS.png" alt="">
                 <h2>MCWARE</h2>
             </div>
             <div class="menu">
@@ -26,7 +26,7 @@
         </div>
         
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
-            <div class="welcome-form"><h1>Bienvenido</h1><h2>MCWARE</h2><H3></div>
+            <div class="welcome-form"><h1>Bienvenido</h1></div>
             <div class="user line-input">
                 <label class="lnr lnr-user"></label>
                 <input type="text" placeholder="Nombre Usuario" name="usuario">

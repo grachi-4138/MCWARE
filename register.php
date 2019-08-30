@@ -23,7 +23,7 @@
             $error .= '<i>Favor de rellenar todos los campos</i>';
         }else{
             try{
-                $conexion = new PDO('mysql:host=localhost;dbname=login', 'root', '');
+                $conexion = new PDO('mysql:host=localhost;dbname=mcware', 'root', '');
             }catch(PDOException $prueba_error){
                 echo "Error: " . $prueba_error->getMessage();
             }
@@ -45,7 +45,7 @@
         }
         
         if ($error == ''){
-            $statement = $conexion->prepare('INSERT INTO loginn (id, correo, usuario, clave) VALUES (null, :correo, :usuario, :clave)');
+            $statement = $conexion->prepare('INSERT INTO login (id, correo, usuario, clave) VALUES (null, :correo, :usuario, :clave)');
             $statement->execute(array(
                 
                 ':correo' => $correo,

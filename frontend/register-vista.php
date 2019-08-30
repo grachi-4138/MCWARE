@@ -17,7 +17,7 @@
 <div class="container-form">
         <div class="header">
             <div class="logo-title">
-                <img src="imagenes/fondo.png" alt="">
+                <img src="imagenes/GRRRS.png" alt="">
                 <h2>MCWARE</h2>
             </div>
             <div class="menu">

@@ -2,7 +2,7 @@
 
     if(isset($_SESSION['usuario'])) {
         header('location: index.php');
-    }
+    
 
     $error = '';
     
@@ -13,12 +13,12 @@
         $clave = hash('sha512', $clave);
         
         try{
-            $conexion = new PDO('mysql:host=localhost;dbname=login', 'root', '');
+            $conexion = new PDO('mysql:host=localhost;dbname=mcware', 'root', '');
             }catch(PDOException $prueba_error){
                 echo "Error: " . $prueba_error->getMessage();
             }
         
-        $statement = $conexion->prepare('
+        $statement = $conexion->prepared('
         SELECT * FROM login WHERE usuario = :usuario AND clave = :clave'
         );
         
@@ -36,7 +36,9 @@
             $error .= '<i>Este usuario no existe</i>';
         }
     }
-    
+
+
+}
 require 'frontend/login-vista.php';
 
 

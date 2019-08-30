@@ -11,7 +11,7 @@
     <style>
         
         body{
-            background-image: url("../imagenes/PRUEBA.jpg");
+            background-image: url("../imagenes/fondo.png");
         }
         
         .welcome{
@@ -57,7 +57,7 @@
 <body>
    
    <div class="welcome">
-       <img src="imagenes/PRUEBA.jpg." >
+       <img src="imagenes/GRRRS.png" >
         <h1>Bienvenido, has logrado iniciar sesion</h1>
         <a href="cerrar.php">Cerrar sesion</a>
    </div>
