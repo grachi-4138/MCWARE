@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
     
+    <link rel="stylesheet" href="icon/style.css">
     <link rel="stylesheet" href="css/styelu.css">
     
 </head>
@@ -16,7 +17,7 @@
 <div class="container-form">
         <div class="header">
             <div class="logo-title">
-                <img src="imagenes/logo.png" alt="">
+                <img src="imagenes/GRRRS.png" alt="">
                 <h2>FACEMAC</h2>
             </div>
             <div class="menu">

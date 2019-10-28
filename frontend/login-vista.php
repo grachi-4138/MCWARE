@@ -22,9 +22,10 @@
                 <a href="register.php"><li class="module-register">Register</li></a>
             </div>
         </div>
+       
         
         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" class="form">
-        <form action="frontend/inicio.php">
+        <form action="principal-vista.php">
             <div class="welcome-form"><h1>Bienvenido</h1></div>
             <div class="user line-input">
                 <label class="lnr lnr-user"></label>
