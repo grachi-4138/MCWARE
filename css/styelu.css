@@ -7,11 +7,12 @@
 }
 
 body{
-    background-image: url("../imagenes/GRRRS.png");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    background: url(../imagenes/op3.jpg);
+    background-repeat: center;
+    background-attachment: fixed; 
+	background-size:cover;
 }
+
 
 .container-form{
     width: 100%;
@@ -179,45 +180,6 @@ a{
 .active{
     border-bottom: 4px solid #5584FF;
 }
-
-
-/*Principal*/
-
-
-.welcome{
-            width: 100%;
-            max-width: 600px;
-            margin: auto;
-            margin-top: 100px;
-            background: rgba(0,0,0,0.6);
-            text-align: center;
-            padding: 20px;
-        }
-
-        .welcome h1{
-            font-size: 50px;
-            color: white;
-            font-weight: 100;
-        }
-        
-        .welcome a{
-            display: block;
-            margin-top: 40px;
-            font-size: 20px;
-            padding: 10px;
-            border: 1px solid white;
-        }
-        
-        .welcome a:hover{
-            color: black;
-            background: white;
-        }
-
-
-
-
-
-
 
 
 
